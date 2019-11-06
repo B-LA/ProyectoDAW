@@ -1,0 +1,137 @@
+.form_input{
+  border-radius: 10px;
+  border: 1px solid grey;
+  text-align: center;
+  height: 400px;
+  width: auto;
+}
+
+body{
+  background-color: #bbdefb ;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.pregunta{
+  margin-bottom: 10px;
+  width: 500px;
+  height: 50px;
+}
+
+.texto{
+  text-align: center;
+}
+
+.pregunta_p{
+  width: 100%;
+  text-align:center;
+  font-size: 30px;
+}
+
+#segundos{
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+}
+
+#contenedor{
+
+
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 2%;
+  background-color: #ffffff;
+
+}
+
+#principal{
+}
+
+#form_button{
+  text-align: center;
+  height: 200px;
+  width: auto;
+}
+
+#form_button > button{
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+#agregar{
+
+
+  cursor: pointer;
+  height: 45px;
+  width: 145px;
+  border: 1em;
+  border-radius: 30px;
+  background-color: #64b5f6;
+  color: white;
+
+}
+
+#finalizar{
+
+  cursor: pointer;
+  height: 45px;
+  width: 145px;
+  border: 1em;
+  border-radius: 30px;
+  background-color: #ff7043  ;
+  color: white;
+
+}
+
+#finalizar:hover{
+  background-color: #bf360c;
+
+}
+
+#agregar:hover{
+  background-color: #03a9f4;
+}
+
+#cancelar:hover{
+  background-color: #bdbdbd;
+}
+
+#cancelar{
+
+  cursor: pointer;
+  color: #ffffff;
+  height: 45px;
+  width: 145px;
+  border: 1em;
+  border-radius: 30px;
+  background-color: #212121;
+
+}
+
+#correcta{
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+}
+
+#opU{
+  margin-left: 50px;
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+}
+
+#opD{
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+}
+
+#opT{
+  margin-left: 50px;
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+}

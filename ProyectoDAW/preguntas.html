@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estyle.css">
+    <title>Agregar preguntas</title>
+  </head>
+  <body>
+
+  <div id="contenedor">
+      <div class="Imagen">
+
+      </div>
+    <form class="form" >
+      <div class="texto">
+        <h3>Pregunta numero <a id="mostrar">1</a></h3>
+        <div class="resultado">
+
+        </div>
+      </div>
+      <div class="pregunta_p">
+        <input type="text" placeholder="Ingrese la pregunta"  class="pregunta" id="principal" name="" value="" required><br>
+      </div>
+      <div class="form_input">
+        <h3 id="necesario">Estas Respuestas Son Obligatorias</h3>
+        <input type="text" placeholder="Ingrese la respuesta Correcta" id="correcta" name="" value="" required>
+        <input type="text" placeholder="Ingrese la respuesta opcional uno" id="opU" class="animated fadeIn" name="" value="" required><br>
+        <h3 id="opcional">Estas Respuestas Son Opcionales</h3>
+        <input type="text" placeholder="Ingrese la respuesta opcional dos" id="opD" class="animated fadeIn" name="" value="">
+        <input type="text" placeholder="Ingrese la respuesta opcional tres" id="opT" class="animated fadeIn" name="" value=""><br>
+        <label for="segundos">Ingrese los segundos para esta pregunta </label>
+        <input type="number" placeholder="Ingrese los Segundos de la pregunta" id="segundos" name="" value=""><br>
+      </div>
+      <div id="form_button">
+        <button class="btn btn-success" type="button" id="agregar" name="button" >Agregar</button>
+        <button class="btn btn-danger" type="button" id="finalizar" name="button">Finalizar</button>
+      </div>
+    </form>
+  </div>
+
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" charset="utf-8"></script>
+  <script src="JS/index.js"></script>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Crear Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/crearTest.css">
+  </head>
+  <body>
+
+    <div class="contenedor">
+      <div id="input">
+      <label for="codigo_examen">Ingresa el codigo para el examen</label>
+      <input type="text" id="codigo_examen" name="" value="">
+      <button type="button" id="botonado" name="button">Agregar</button>
+        <button type="button" id="volver" name="button">Finalizar</button>
+      </div>
+
+      <label for="datos">Selecciona las preguntas</label>
+      <div id="mostrar_tabla">
+        <table  id="datos">
+          <thead>
+          <tr id="primary">
+            <th>Seleccionar</th>
+            <th>Pregunta</th>
+            <th>Respuesta</th>
+            <th>Tiempo</th>
+          </tr>
+        </thead>
+        </table>
+      </div>
+    </div>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="JS/crearTest.js" charset="utf-8"></script>
+</html>

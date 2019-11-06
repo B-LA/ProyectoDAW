@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap');
+
+body{
+    background-color: #6cf;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.3);
+    height: auto;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.titulo{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.pregunta{
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    width: 86%;
+    font-size: 22px;
+    border-radius: 7px;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+
+.option{
+    font-family: 'Quicksand', sans-serif;
+    width: 40%;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    margin: 10px 0 10px 10px;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.option:hover{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.next_btn{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    outline: none;
+    width: 10%;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+.next_btn:hover{
+    background-color: orangered;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.container_result{
+    font-family: 'Raleway', sans-serif;
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.option input:checked .option{
+    background-color: #08038c;
+    color: black;
+}
+
+
+

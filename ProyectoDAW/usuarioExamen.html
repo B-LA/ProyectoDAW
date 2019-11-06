@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Definir Examen</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/usuarioExamen.css">
+</head>
+<body>
+
+    <div id="contenedor">
+
+        <div id="usuario">
+          <label for="nameUsr">Ingrese el nombre de usuario</label>
+          <input type="text" name="" value="" id="nameUsr" pattern="USR[aA-zZ]{3}">
+          <button type="button" id="agregar" name="button">Agregar</button>
+            <button type="button" id="finalizar" name="button">Finalizar</button>
+        </div>
+
+        <label for="datos">Selecciona las preguntas</label>
+        <div id="mostrar_tabla">
+          <table  id="datos">
+            <thead>
+            <tr id="primer">
+              <th>Seleccionar</th>
+              <th>Codigo del examen</th>
+            </tr>
+          </thead>
+          </table>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="JS/usuarioExamen.js" charset="utf-8"></script>
+</html>

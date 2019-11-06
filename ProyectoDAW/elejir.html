@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Elejir</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/elejir.css">
+  </head>
+  <body>
+
+    <div id="todo">
+
+        <div id="botones">
+        <button type="button" id="agregar_p">Agregar preguntas</button> <button type="button" id="test">Crear test</button>
+        <button type="button" id="def_ex">Definir Examen</button> <button type="button" id="salir">Salir</button>
+        </div>
+
+
+     <label for="datos">Preguntas Disponibles</label>
+      <div id="mostrar_tabla">
+        <table  id="datos">
+          <thead>
+          <tr class="primer">
+            <th>ID</th>
+            <th>Pregunta</th>
+            <th>Respuesta</th>
+            <th>Tiempo</th>
+          </tr>
+        </thead>
+
+        </table>
+
+      </div>
+
+    </div>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <script src="JS/tabla.js"></script>
+
+</html>

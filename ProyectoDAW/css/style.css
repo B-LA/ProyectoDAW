@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+input, p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#banner{
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner .contenedor{
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border: 3px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+
+#banner h2{
+    font-size: 28px;
+}
+
+@media (min-width:768px){
+    
+    #banner{
+        height: 300px;
+        overflow: hidden;
+    }
+    
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+    
+}
+
+@media (min-width:1024px){
+    
+    #banner img{
+        
+        margin-top: -200px;
+    }
+    
+}
+
+#login{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+
+#login h3{
+    text-align: center;
+}
+
+#login #admin, #user{
+    display: inline-block;
+    margin-top: 80px;
+    width: 42%;
+    transform: translateX(20%) translateY(-10%);
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+#user{
+    margin-top: 50px;
+}
+
+#login #admin input, #user input{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 10px;
+    width: 45%;
+}
+
+#login #admin #reg, #user #reg{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+}

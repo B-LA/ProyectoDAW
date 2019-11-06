@@ -1,0 +1,85 @@
+body{
+
+  font-family: 'Roboto Mono', monospace;
+}
+#todo{
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  border: 1px solid;
+  margin-top: 20px;
+  margin-left: 10%;
+  height: 720px;
+  width: 80%;
+}
+
+#imagen{
+  width: 100%;
+  margin-top: 10px;
+}
+
+#imagenD{
+  border-radius: 20px;
+  margin-left: 19%;
+  height: 250px;
+  width: 60%;
+}
+
+#hacer{
+  border: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 30px;
+  height: 35px;
+  width: 95px;
+  background-color: #2196f3 ;
+}
+
+#ingresar{
+  border: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 30px;
+  height: 35px;
+  width: 95px;
+  background-color: #2196f3 ;
+}
+
+#form{
+  background-color: #fafafa;
+  margin-top: 5px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  border: 1px solid;
+  height: 200px;
+  width: 50%;
+}
+
+#form button{
+  margin-top: 10px;
+}
+
+#form input{
+  width: 200px;
+  height: 40px;
+}
+
+#pass{
+  margin-left: 10px;
+}
+
+
+#formU{
+  border-radius: 10px 0px 10px 0px;
+  background-color: #fafafa;
+  text-align: center;
+  margin-left: 45%;
+  border: 1px solid;
+  height: 200px;
+  width: 50%;
+}
+#formU input{
+  width: 200px;
+  height: 40px;
+}

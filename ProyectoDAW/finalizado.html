@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scores</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+  </head>
+  <body>
+
+<div class="ct-chart ct-golden-section" id="chart1" style="width:300px;height:300px"></div>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(function(){
+
+      function obtenerScore(){
+        $.ajax({
+          url: 'conexiones/conexion.php',
+          type: 'POST',
+          data:{
+            'grafico':1
+          },
+          success: function(response){
+            crear(response);
+          }
+        });
+
+      }
+
+
+      function crear(){
+      var data = {
+        labels: ['Jan', 'Feb'],
+        series: [
+          [5, 4],
+        ]
+      };
+
+      var options = {
+        seriesBarDistance: 10
+      };
+
+      var responsiveOptions = [
+        ['screen and (max-width: 640px)', {
+          seriesBarDistance: 5,
+          axisX: {
+            labelInterpolationFnc: function (value) {
+              return value[0];
+            }
+          }
+        }]
+      ];
+
+      new Chartist.Bar('.ct-chart', data, options, responsiveOptions);
+
+    }
+    });
+  </script>
+</html>
